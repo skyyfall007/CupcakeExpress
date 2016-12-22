@@ -37,6 +37,11 @@ Application walks user through cupcake customization and transcational system ac
 
 
 
+##  DOCUMENTATION
+
+[***Documentation process involves problem statement, requirement elitication, etc:***] (https://github.com/skyyfall007/CupcakeExpress/tree/master/Documentation)
+
+
 ##  CREDITS
 
 This project could not have been possible without the following indivduals and their assigned roles:
