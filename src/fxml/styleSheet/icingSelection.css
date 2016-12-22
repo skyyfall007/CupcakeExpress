@@ -1,0 +1,70 @@
+#icingSelectionBackground {
+		-fx-background-color: #fdf5e6;
+}
+
+#icingSelectionTitle {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+}
+
+#icingSelectionTitleLine {
+	-fx-stroke: #cd1076; 
+	-fx-stroke-width: 3;
+}
+
+#chooseIcingLabel {
+	-fx-font-size: 55; 
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+}
+
+#scrollPane {
+	-fx-background-color: #fdf5e6; 
+}
+
+#homeButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}
+
+#nextButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}
+
+#icingName {
+	-fx-text-fill: black;
+	-fx-font-size: 20;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+}
+
+#cupcakeName {
+	-fx-text-fill: black;
+	-fx-font-size: 20;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+}
+
+#comingSoonTextBox {
+	-fx-text-fill: red;
+	-fx-font-size: 18;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+	-fx-border-color: black;
+	-fx-border-width: 2px;
+	-fx-background-color: #fdf5e6;
+}

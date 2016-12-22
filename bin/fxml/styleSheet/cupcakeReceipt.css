@@ -1,0 +1,90 @@
+#cupcakeReceiptBackground {
+	-fx-background-color: #ff82ab;
+}
+
+#cupcakeReceiptTitle {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+}
+
+#cupcakeReceiptTitleLine {
+	-fx-stroke: #cd1076; 
+	-fx-stroke-width: 3;
+}
+
+#receiptPaper {
+	-fx-fill: white;
+}
+
+#receiptHeader {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+	-fx-font-size: 20;
+}
+
+#receiptLine {
+	-fx-stroke: black; 
+	-fx-stroke-width: 3;
+}
+
+
+#receiptSubTotalLabel {
+	-fx-font-size: 25;
+	-fx-font-family: papyrus;	
+}
+
+#receiptTaxLabel {
+	-fx-font-size: 25;
+	-fx-font-family: papyrus;	
+}
+
+#receiptTotalLabel {
+	-fx-font-size: 25;
+	-fx-font-family: papyrus;	
+}
+
+#receiptChangeLabel {
+	-fx-font-size: 25;
+	-fx-font-family: papyrus;	
+}
+
+#informationLabel {
+	-fx-font-size: 12;
+	-fx-font-family: papyrus;
+}
+
+
+#thankYouLabel {
+	-fx-font-size: 15;
+	-fx-font-family: zapfino;
+}
+
+#dateLabel {
+	-fx-font-size: 17;
+	-fx-font-family: papyrus;
+}
+
+
+#homeButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}
+
+
+#printButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}

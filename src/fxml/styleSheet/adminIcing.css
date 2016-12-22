@@ -1,0 +1,86 @@
+#adminIcingBackground {
+	-fx-background-color: #fdf5e6;
+}
+
+#adminIcingTitle {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+}
+
+#adminIcingTitleLine {
+	-fx-stroke: #cd1076; 
+	-fx-stroke-width: 3;
+}
+
+#icingOptionsLabel {
+	-fx-font-size: 60; 
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+}
+
+#icingName {
+	-fx-font-size: 20;
+	-fx-font-family: papyrus;
+}
+
+#adminAnchorPane {
+	-fx-background-color: #fdf5e6; 
+}
+
+#scrollPane {
+	-fx-background-color: #fdf5e6; 
+}
+
+#returnButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}
+
+
+#confirmButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}
+
+#displayBox {
+	-fx-text-fill: black;
+	-fx-background-color: pink; 
+	-fx-font-size: 20;
+	
+}
+
+#toCupcakeOptions {
+	-fx-font-size: 25; 
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+}
+
+#createNewIcingButton {
+	-fx-font-size: 30; 
+	-fx-background-color: #ff82ab;
+	-fx-text-fill: White;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+	-fx-border-color: #cd1076;
+	-fx-border-width: 5;
+}
+
+#notAvailableLabel {
+	-fx-font-size: 10; 
+	-fx-text-fill: red;
+	-fx-font-family: zapfino;
+}

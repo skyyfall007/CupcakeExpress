@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="quantityPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SecondWindowController">
+   <children>
+      <Pane fx:id="quantitySelectionBackground" layoutX="1.0" layoutY="-2.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="cupcakeSelectedImage" fitHeight="100.0" fitWidth="150.0" layoutX="200.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="cupcakeName" layoutX="230.0" layoutY="34.0" text="Cupcake Name Slection" />
+            <ImageView fx:id="icingSelectedImage" fitHeight="100.0" fitWidth="150.0" layoutX="200.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="leftArrow" fitHeight="75.0" fitWidth="75.0" layoutX="120.0" layoutY="420.0" onMouseClicked="#leftArrowClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Left%20Arrow.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="rightArrow" fitHeight="75.0" fitWidth="75.0" layoutX="405.0" layoutY="420.0" onMouseClicked="#rightArrowClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Right%20Arrow.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="backButton" layoutX="20.0" layoutY="208.0" mnemonicParsing="false" onMouseClicked="#backButtonClicked" text="BACK" />
+            <Button fx:id="cartButton" layoutX="435.0" layoutY="195.0" mnemonicParsing="false" onAction="#cartButtonClicked" onMouseClicked="#cartButtonClicked" prefWidth="150.0" text="ADD TO CART" textAlignment="CENTER" wrapText="true">
+               <padding>
+                  <Insets bottom="-5.0" left="-3.0" right="-3.0" top="-5.0" />
+               </padding></Button>
+            <Label fx:id="quantityNumberLabel" layoutX="270.0" layoutY="390.0" text="0" />
+            <Label fx:id="remainingIcingQuantityLabel" layoutX="440.0" layoutY="300.0" />
+            <Label fx:id="remainingCupcakeQuantityLabel" layoutX="410.0" layoutY="330.0" />
+            <Label fx:id="icingPriceLabel" layoutX="470.0" layoutY="113.0" />
+            <Label fx:id="cupcakePriceLabel" layoutX="435.0" layoutY="140.0" />
+         </children></Pane>
+      <Separator fx:id="icingSelectionTitleLine" layoutY="50.0" prefHeight="40.0" prefWidth="599.0">
+         <effect>
+            <DropShadow color="#d01818" />
+         </effect>
+      </Separator>
+   </children>
+</AnchorPane>

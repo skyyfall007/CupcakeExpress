@@ -1,0 +1,24 @@
+#cupcakeProcessingBackground {
+	-fx-background-color: #fdf5e6;
+}
+
+#cupcakeProcessingTitle {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+}
+
+#cupcakeProcessingTitleLine {
+	-fx-stroke: #cd1076; 
+	-fx-stroke-width: 3;
+}
+
+#cupcakeProcessingLabel {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+	-fx-font-size: 60;
+}
+
+

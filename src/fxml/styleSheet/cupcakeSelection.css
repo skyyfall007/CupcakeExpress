@@ -1,0 +1,77 @@
+#cupcakeSelectionBackground {
+	-fx-background-color: #fdf5e6;
+}
+
+#cupcakeSelectionTitle {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+}
+
+#cupcakeSelectionTitleLine {
+	-fx-stroke: #cd1076; 
+	-fx-stroke-width: 3;
+}
+
+#scrollPane {
+	-fx-background-color: #fdf5e6; 
+}
+
+#chooseIcingLabel {
+	-fx-font-size: 45; 
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+}
+
+#icingName {
+	-fx-font-size: 20;
+	-fx-font-family: papyrus;
+}
+
+#cupcakeName {
+	-fx-font-size: 20;
+	-fx-font-family: papyrus;	
+}
+
+#chooseCupcakeLabel {
+	-fx-font-size: 45; 
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+}
+
+#homeButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}
+
+
+#nextButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}
+
+#proceedLabel {
+	-fx-font-size: 35; 
+	-fx-text-fill: red;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+}
+
+#notAvailableLabel {
+	-fx-font-size: 10; 
+	-fx-text-fill: red;
+	-fx-font-family: zapfino;
+}

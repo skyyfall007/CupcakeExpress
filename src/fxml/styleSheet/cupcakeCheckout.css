@@ -1,0 +1,89 @@
+#cupcakeCheckoutBackground {
+	-fx-background-color: #fdf5e6;
+}
+
+#cupcakeCheckoutTitle {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+}
+
+#cupcakeCheckoutTitleLine {
+	-fx-stroke: #cd1076; 
+	-fx-stroke-width: 3;
+}
+
+#checkoutScrollPane {
+	-fx-background-color:#fdf5e6;
+}
+
+#table {
+	-fx-background-color:#fdf5e6;	
+}
+
+
+#cupcakeName {
+	-fx-font-size: 20;
+	-fx-font-family: papyrus;	
+}
+
+#subTotalLabel {
+	-fx-font-size: 30;
+	-fx-font-family: papyrus;	
+}
+
+#taxLabel {
+	-fx-font-size: 30;
+	-fx-font-family: papyrus;	
+}
+
+#totalLabel {
+	-fx-font-size: 30;
+	-fx-font-family: papyrus;	
+}
+
+#totalLine {
+	-fx-stroke: black;
+	-fx-stroke-width: 3;
+}
+
+#selectPaymentLabel {
+	-fx-font-size: 40;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+}
+
+#insertCardLabel {
+	-fx-font-size: 30;
+	-fx-font-family: papyrus;
+	-fx-text-fill: blue;
+}
+
+#insertCashLabel {
+	-fx-font-size: 30;
+	-fx-font-family: papyrus;
+	-fx-text-fill: blue;
+}
+
+
+#backButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}
+
+
+#submitButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}

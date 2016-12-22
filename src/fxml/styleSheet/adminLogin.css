@@ -1,0 +1,58 @@
+#loginBackground {
+	-fx-background-color: #fdf5e6;
+}
+
+#loginHeader {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+}
+
+#loginTitleLine {
+	-fx-stroke: #cd1076; 
+	-fx-stroke-width: 3;
+}
+
+#loginAdminTitle {
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+	-fx-font-size: 60;
+}
+
+#userNameLabel {
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+	-fx-font-size: 30;
+}
+
+#passwordLabel {
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+	-fx-font-size: 30;
+}
+
+#incorrectLoginLabel {
+	-fx-text-fill: red;
+	-fx-font-size: 15;
+}
+
+#loginButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}
+
+#returnButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 25;
+	-fx-border-width: 5;
+}

@@ -1,0 +1,42 @@
+#adminCreateBackground {
+	-fx-background-color: #fdf5e6;
+}
+
+#adminCreateTitle {
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: zapfino;
+	-fx-font-weight: bold;
+	-fx-font-size: 30;
+}
+
+#adminCreateTitleLine {
+	-fx-stroke: #cd1076; 
+	-fx-stroke-width: 3;
+}
+
+#attributeLabel {
+	-fx-font-size: 30; 
+	-fx-text-fill: #ff82ab;
+	-fx-font-family: papyrus;
+	-fx-font-weight: bold;
+}
+
+#createButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 15;
+	-fx-border-width: 5;
+}
+
+#cancelButton {
+	-fx-text-fill: fdf5e6;
+	-fx-background-color: #ff82ab; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076; 
+	-fx-font-family: papyrus;
+	-fx-font-size: 15;
+	-fx-border-width: 5;
+}

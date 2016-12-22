@@ -1,0 +1,25 @@
+#homeBackground {
+	-fx-background-color: #ff82ab;
+}   
+
+#homeTitle {
+	-fx-font-family: zapfino;
+}
+
+#purchaseButton {
+	-fx-background-color: #ff82ab;
+	-fx-background-radius: 25; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076;
+	-fx-border-width: 3; 
+	-fx-border-radius: 25;
+}
+
+#administratorButton {
+	-fx-background-color: #ff82ab;
+	-fx-background-radius: 25; 
+	-fx-stroke: black; 
+	-fx-border-color: #cd1076;
+	-fx-border-width: 3; 
+	-fx-border-radius: 25;
+}

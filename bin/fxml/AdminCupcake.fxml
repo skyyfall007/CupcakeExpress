@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="adminIcingBackground" layoutX="-2.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="759.0" prefWidth="913.0">
+         <children>
+            <Label fx:id="toCupcakeOptions" layoutX="300.0" layoutY="635.0" onMouseClicked="#icingOptionsClicked" text="&gt;&gt;Icing Options" />
+            <Button fx:id="confirmButton" layoutX="700.0" layoutY="623.0" mnemonicParsing="false" onAction="#confirmButtonClicked" onMouseClicked="#confirmButtonClicked" prefHeight="68.0" prefWidth="180.0" text="CONFIRM" textAlignment="CENTER">
+               <font>
+                  <Font name="Marker Felt Thin" size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="adminIcingTitle" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="97.0" layoutY="-55.0" prefHeight="57.0" prefWidth="686.0" text="CUPCAKE EXPRESS" textAlignment="CENTER">
+               <effect>
+                  <InnerShadow color="PINK" />
+               </effect>
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="cupcakeOptionsLabel" layoutX="230.0" layoutY="80.0" prefHeight="68.0" prefWidth="510.0" text="Admin Cupcake Options:">
+               <font>
+                  <Font name="Marker Felt Thin" size="36.0" />
+               </font>
+            </Label>
+            <Separator fx:id="adminIcingTitleLine" layoutX="1.0" layoutY="66.0" prefHeight="40.0" prefWidth="905.0">
+               <effect>
+                  <DropShadow color="#d01818" />
+               </effect>
+            </Separator>
+            <Button fx:id="returnButton" layoutX="18.0" layoutY="623.0" mnemonicParsing="false" onAction="#homeButtonClicked" prefHeight="68.0" prefWidth="143.0" text="HOME" textAlignment="CENTER">
+               <font>
+                  <Font name="Marker Felt Thin" size="25.0" />
+               </font>
+            </Button>
+            <SplitMenuButton fx:id="optionMenu" layoutX="116.0" layoutY="246.0" mnemonicParsing="false" text="OPTIONS" visible="false">
+               <items>
+                  <MenuItem fx:id="priceButton" mnemonicParsing="false" onAction="#priceClicked" text="Price" />
+                  <MenuItem fx:id="quantityButton" mnemonicParsing="false" onAction="#quantityClicked" text="Quantity " />
+                  <MenuItem fx:id="removeButton" mnemonicParsing="false" onAction="#removeClicked" text="Remove" />
+                  <MenuItem fx:id="addButton" mnemonicParsing="false" onAction="#addClicked" text="Add" />
+               </items>
+            </SplitMenuButton>
+            <TextField fx:id="displayBox" editable="false" layoutX="180.0" layoutY="624.0" onAction="#enterDisplayPressed" onMouseClicked="#clearDisplay" prefHeight="35.0" prefWidth="500.0" visible="false" />
+            <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="20.0" layoutY="180.0" prefHeight="430.0" prefWidth="872.0" vbarPolicy="NEVER">
+               <content>
+                  <AnchorPane fx:id="adminAnchorPane" prefHeight="413.0" prefWidth="873.0">
+                     <children>
+                        <ImageView fx:id="carrotCupcake" fitHeight="183.0" fitWidth="127.0" layoutX="50.0" layoutY="200.0" onMouseClicked="#carrotCupcakeClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Carrot%20Cupcake%20(Project).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="pumpkinCupcake" fitHeight="200.0" fitWidth="250.0" layoutX="200.0" layoutY="210.0" onMouseClicked="#pumpkinCupcakeClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Pumpkin%20Cupcake%20Base.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="blueberryCupcake" fitHeight="200.0" fitWidth="211.0" layoutX="423.0" layoutY="220.0" onMouseClicked="#blueberryCupcakeClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/blueberry%20cupcake%20base.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="redVelvetCupcake" fitHeight="184.0" fitWidth="172.0" layoutX="673.0" layoutY="210.0" onMouseClicked="#redVelvetCupcakeClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Red%20Velvet%20Cupcake%20(Project).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="appleCupcake" fitHeight="152.0" fitWidth="200.0" layoutX="661.0" layoutY="10.0" onMouseClicked="#appleCupcakeClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Apple%20Cupcake%20(Project).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="chocolateCupcake" fitHeight="172.0" fitWidth="168.0" layoutX="445.0" layoutY="-3.0" onMouseClicked="#chocolateCupcakeClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Chocolate%20Cupcake%20(Project).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="strawberryCupcake" fitHeight="200.0" fitWidth="300.0" layoutX="260.0" layoutY="10.0" onMouseClicked="#strawberryCupcakeClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Strawberry%20Cupcake%20(Project).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="vanillaCupcake" fitHeight="200.0" fitWidth="230.0" layoutX="7.0" layoutY="10.0" onMouseClicked="#vanillaCupcakeClicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Vanilla%20Cupcake%20(Project).png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="cupcakeName" layoutX="82.0" layoutY="170.0" text="Vanilla" />
+                        <Label fx:id="cupcakeName" layoutX="280.0" layoutY="170.0" text="Strawberry " />
+                        <Label fx:id="cupcakeName" layoutX="480.0" layoutY="170.0" text="Chocolate" />
+                        <Label fx:id="cupcakeName" layoutX="730.0" layoutY="170.0" text="Apple" />
+                        <Label fx:id="cupcakeName" layoutX="80.0" layoutY="390.0" text="Carrot" />
+                        <Label fx:id="cupcakeName" layoutX="290.0" layoutY="390.0" text="Pumpkin " />
+                        <Label fx:id="cupcakeName" layoutX="490.0" layoutY="391.0" text="Blueberry" />
+                        <Label fx:id="cupcakeName" layoutX="710.0" layoutY="390.0" text="Red Velvet" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+      <Button fx:id="createNewIcingButton" layoutX="750.0" layoutY="100.0" maxHeight="50.0" mnemonicParsing="false" onAction="#createCupcake" prefHeight="20.0" text="+ ADD" />
+   </children>
+</AnchorPane>

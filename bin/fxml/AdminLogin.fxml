@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="loginBackground" prefHeight="750.0" prefWidth="900.0">
+         <children>
+            <Label fx:id="loginAdminTitle" layoutX="150.0" layoutY="167.0" text="Administrator Login" />
+            <Label fx:id="userNameLabel" layoutX="380.0" layoutY="300.0" text="User Name" />
+            <Label fx:id="passwordLabel" layoutX="390.0" layoutY="400.0" text="Password" />
+            <TextField fx:id="userTextField" layoutX="382.0" layoutY="350.0" onAction="#enterLoginPressed" />
+            <Button fx:id="loginButton" layoutX="405.0" layoutY="515.0" mnemonicParsing="false" onMouseClicked="#loginButtonClicked" text="LOGIN" />
+            <Button fx:id="returnButton" layoutX="350.0" layoutY="610.0" mnemonicParsing="false" onMouseClicked="#returnButtonClicked" text="RETURN HOME" />
+            <Label fx:id="incorrectLoginLabel" layoutX="360.0" layoutY="483.0" />
+            <PasswordField fx:id="passwordTextField" layoutX="382.0" layoutY="450.0" onAction="#enterLoginPressed" />
+         </children>
+      </Pane>
+      <Label fx:id="loginHeader" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="107.0" layoutY="-45.0" prefHeight="57.0" prefWidth="686.0" text="CUPCAKE EXPRESS" textAlignment="CENTER">
+         <effect>
+            <InnerShadow color="PINK" />
+         </effect>
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Separator fx:id="cupcakeSelectionTitleLine" layoutX="-1.0" layoutY="76.0" prefHeight="40.0" prefWidth="917.0">
+         <effect>
+            <DropShadow color="#d01818" />
+         </effect>
+      </Separator>
+   </children>
+</AnchorPane>

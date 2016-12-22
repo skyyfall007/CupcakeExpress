@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ReceiptController">
+   <children>
+      <Pane fx:id="cupcakeReceiptBackground" layoutX="-2.0" layoutY="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="784.0" prefWidth="932.0">
+         <children>
+            <Label fx:id="cupcakeReceiptTitle" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="97.0" layoutY="-55.0" prefHeight="57.0" prefWidth="686.0" text="CUPCAKE EXPRESS" textAlignment="CENTER">
+               <effect>
+                  <InnerShadow color="PINK" />
+               </effect>
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Separator fx:id="cupcakeReceiptTitleLine" layoutY="76.0" prefHeight="40.0" prefWidth="911.0">
+               <effect>
+                  <DropShadow color="#d01818" />
+               </effect>
+            </Separator>
+            <Button fx:id="printButton" layoutX="730.0" layoutY="623.0" mnemonicParsing="false" onAction="#print" prefHeight="68.0" prefWidth="143.0" text="PRINT" textAlignment="CENTER">
+               <font>
+                  <Font name="Marker Felt Thin" size="24.0" />
+               </font>
+            </Button>
+            <Rectangle fx:id="receiptPaper" arcHeight="5.0" arcWidth="5.0" fill="#c2c4c5" height="500.0" layoutX="265.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+            <Button fx:id="homeButton" layoutX="18.0" layoutY="623.0" mnemonicParsing="false" onAction="#homeButtonClicked" prefHeight="68.0" prefWidth="143.0" text="HOME" textAlignment="CENTER">
+               <font>
+                  <Font name="Marker Felt Thin" size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="receiptHeader" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="120.0" layoutY="100.0" prefHeight="57.0" prefWidth="686.0" text="CUPCAKE EXPRESS" textAlignment="CENTER">
+               <effect>
+                  <InnerShadow color="PINK" />
+               </effect>
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="informationLabel" layoutX="600.0" layoutY="200.0" text="Total" />
+            <Label fx:id="informationLabel" layoutX="560.0" layoutY="200.0" text="Price" />
+            <Label fx:id="informationLabel" layoutX="520.0" layoutY="200.0" text="QTY" />
+            <Label fx:id="informationLabel" layoutX="275.0" layoutY="200.0" text="Description" />
+            <Line fx:id="receiptLine" endX="255.0" layoutX="405.0" layoutY="225.0" startX="-135.0" />
+            <ListView fx:id="receiptListView" layoutX="270.0" layoutY="230.0" prefHeight="110.0" prefWidth="390.0" />
+            <Label fx:id="receiptSubTotalLabel" layoutX="420.0" layoutY="350.0" text="Sub Total" />
+            <Label fx:id="receiptTaxLabel" layoutX="420.0" layoutY="380.0" text="Tax" />
+            <Label fx:id="receiptTotalLabel" layoutX="420.0" layoutY="410.0" text="Total" />
+            <Label fx:id="receiptChangeLabel" layoutX="420.0" layoutY="440.0" text="Change" />
+            <Label fx:id="thankYouLabel" layoutX="330.0" layoutY="520.0" text="Thank You For Your Purchase" />
+            <Label fx:id="dateLabel" layoutX="535.0" layoutY="582.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="cupcakeCheckoutBackground" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="cupcakeCheckoutBackground" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="900.0">
+         <children>
+            <Label fx:id="cupcakeCheckoutTitle" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="97.0" layoutY="-55.0" prefHeight="57.0" prefWidth="686.0" text="CUPCAKE EXPRESS" textAlignment="CENTER">
+               <effect>
+                  <InnerShadow color="PINK" />
+               </effect>
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <ScrollPane fx:id="checkoutScrollPane" hbarPolicy="NEVER" hmax="2.0" layoutX="10.0" layoutY="100.0" maxHeight="200.0" prefHeight="250.0" prefViewportHeight="573.0" prefViewportWidth="942.0" prefWidth="500.0" vbarPolicy="NEVER" vmax="0.0">
+               <content>
+                  <AnchorPane fx:id="checkoutScrollPane" maxHeight="200.0" prefHeight="250.0" prefWidth="501.0">
+                     <children>
+                        <TableView fx:id="table" maxHeight="200.0" minHeight="200.0" prefHeight="200.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <ImageView fx:id="creditCardImage" fitHeight="100.0" fitWidth="175.0" layoutX="200.0" layoutY="400.0" onMouseClicked="#creditCardClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Credit%20Card%20(Project).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="135.0" fitWidth="200.0" layoutX="590.0" layoutY="400.0" onMouseClicked="#cashClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Dollar%20Bill%20(Project).png" />
+               </image>
+            </ImageView>
+            <Label fx:id="selectPaymentLabel" layoutX="250.0" layoutY="330.0" text="Select Your Method Of Payment :" />
+            <Separator fx:id="cupcakeCheckoutTitleLine" layoutY="66.0" prefHeight="40.0" prefWidth="905.0">
+               <effect>
+                  <DropShadow color="#d01818" />
+               </effect>
+            </Separator>
+            <ImageView fx:id="insertCardImage" fitHeight="100.0" fitWidth="100.0" layoutX="230.0" layoutY="607.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@images/Insert%20Card%20(Project).png" />
+               </image>
+            </ImageView>
+            <Label fx:id="insertCardLabel" layoutX="160.0" layoutY="520.0" text="Please Insert Card" visible="false" />
+            <Label fx:id="insertCashLabel" layoutX="580.0" layoutY="520.0" text="Please Insert Cash" visible="false" />
+            <Label fx:id="totalLabel" layoutX="550.0" layoutY="230.0" />
+            <Label fx:id="taxLabel" layoutX="550.0" layoutY="170.0" />
+            <Label fx:id="subTotalLabel" layoutX="550.0" layoutY="120.0" />
+            <Button fx:id="backButton" layoutX="18.0" layoutY="623.0" mnemonicParsing="false" onAction="#backButtonClicked" onMouseClicked="#backButtonClicked" prefHeight="68.0" prefWidth="143.0" text="BACK" textAlignment="CENTER">
+               <font>
+                  <Font name="Marker Felt Thin" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="submitButton" layoutX="730.0" layoutY="623.0" mnemonicParsing="false" onAction="#submitButtonClicked" prefHeight="68.0" prefWidth="150.0" text="SUBMIT" textAlignment="CENTER">
+               <font>
+                  <Font name="Marker Felt Thin" size="24.0" />
+               </font>
+            </Button>
+            <Separator layoutX="479.0" layoutY="400.0" orientation="VERTICAL" prefHeight="250.0" />
+            <Line fx:id="totalLine" endX="170.0" layoutX="650.0" layoutY="230.0" startX="-100.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
