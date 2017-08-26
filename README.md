@@ -11,7 +11,7 @@
 <p align="center">
 <b><a href="#overview">Overview</a></b>
 |
-<b><a href="#features">Features</a></b>
+<b><a href="#visuals">Visuals</a></b>
 |
 <b><a href="#documentation">Documentation</a></b>
 |
@@ -31,7 +31,7 @@ Cupcake Express is a fully functional cupcake vending machine application that s
 ##  Visuals
 
 
-<img src="https://cloud.githubusercontent.com/assets/21064716/21435832/d2b96bae-c849-11e6-87ec-aa44513a80b0.png" width="23%"></img> <img src="https://cloud.githubusercontent.com/assets/21064716/21435833/d2c110b6-c849-11e6-8d1a-8c76af27c114.png" width="23%"></img><img src="https://cloud.githubusercontent.com/assets/21064716/21435840/d2cfc778-c849-11e6-9acd-964d4d09d050.png" width="23%"></img>   
+<img src="https://cloud.githubusercontent.com/assets/21064716/21435832/d2b96bae-c849-11e6-87ec-aa44513a80b0.png" width="33%"></img> <img src="https://cloud.githubusercontent.com/assets/21064716/21435833/d2c110b6-c849-11e6-8d1a-8c76af27c114.png" width="33%"></img><img src="https://cloud.githubusercontent.com/assets/21064716/21435840/d2cfc778-c849-11e6-9acd-964d4d09d050.png" width="33%"></img>   
 
 
 
