@@ -4,6 +4,7 @@
 
 
 # Cupcake Express
+[![npm](https://img.shields.io/badge/platform-desktop-lightgrey.svg)]
 [![npm](https://img.shields.io/badge/docs-complete-brightgreen.svg)](https://github.com/skyyfall007/CupcakeExpress/tree/master/Documentation)
 [![npm](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
@@ -45,7 +46,7 @@ Application walks user through cupcake customization and transcational system ac
 This project could not have been possible without the following indivduals and their assigned roles:
 
 * Adele Francois [[@skyyfall007]](https://github.com/skyyfall007) :  ***Documentation Specialist*** & ***Junior Developer***
-* Jawan Higgins  [[@Jwork26]](https://github.com/Jwork26)    :  ***Junior Developer*** & ***Software Testing***
+* Jawan Higgins  [[@Jwork26]](https://github.com/Jwork26)    :  ***Junior Developer*** & ***Software Tester***
 * Lance Toornman                                                   :  ***Database Modeler*** 
 
 
