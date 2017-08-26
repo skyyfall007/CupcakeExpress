@@ -21,22 +21,21 @@
 </p>
 
 
-##  OVERVIEW
+##  Overview
 
 Cupcake Express is a fully functional cupcake vending machine application that sets the standard of efficiency, creativity, reliability and affordability. The application offers user a unique experience of customization on the go and the luxury of 24/7 accessibilty. Overall, Cupcake Express aims to bring sweetness to all parts of the world with each order and satisifed customer!
 
 
 
 
-##  FEATURES
-
-Application walks user through cupcake customization and transcational system activities. Visuals are as follows:
-
-<img src="https://cloud.githubusercontent.com/assets/21064716/21435832/d2b96bae-c849-11e6-87ec-aa44513a80b0.png" width="23%"></img> <img src="https://cloud.githubusercontent.com/assets/21064716/21435833/d2c110b6-c849-11e6-8d1a-8c76af27c114.png" width="23%"></img>   <img src="https://cloud.githubusercontent.com/assets/21064716/21435836/d2c51274-c849-11e6-9f10-c31033882612.png" width="23%"></img> <img src="https://cloud.githubusercontent.com/assets/21064716/21435839/d2cf1850-c849-11e6-872c-c540cd44610e.png" width="23%"></img> <img src="https://cloud.githubusercontent.com/assets/21064716/21435840/d2cfc778-c849-11e6-9acd-964d4d09d050.png" width="23%"></img>   
+##  Visuals
 
 
+<img src="https://cloud.githubusercontent.com/assets/21064716/21435832/d2b96bae-c849-11e6-87ec-aa44513a80b0.png" width="23%"></img> <img src="https://cloud.githubusercontent.com/assets/21064716/21435833/d2c110b6-c849-11e6-8d1a-8c76af27c114.png" width="23%"></img><img src="https://cloud.githubusercontent.com/assets/21064716/21435840/d2cfc778-c849-11e6-9acd-964d4d09d050.png" width="23%"></img>   
 
-##  DOCUMENTATION
+
+
+##  Documentation
 
 [***Documentation***](https://github.com/skyyfall007/CupcakeExpress/tree/master/Documentation) process involves problem statement, requirement elitication, etc.
 
