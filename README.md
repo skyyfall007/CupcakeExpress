@@ -51,6 +51,6 @@ This project could not have been possible without the following indivduals and t
 
 ##  LICENSE
 
-The properties of Cupcake Express are protected under the following [***Licensing Agreement***](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+The properties of Cupcake Express are protected under the following :point_right: [***Licensing Agreement***](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
 
