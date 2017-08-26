@@ -20,8 +20,6 @@
 </p>
 
 
-**Repository:**  [Check Out Our Code!] (https://github.com/skyyfall007/CupcakeExpress)
-
 ##  OVERVIEW
 
 Cupcake Express is a fully functional cupcake vending machine application that sets the standard of efficiency, creativity, reliability and affordability. The application offers user a unique experience of customization on the go and the luxury of 24/7 accessibilty. Overall, Cupcake Express aims to bring sweetness to all parts of the world with each order and satisifed customer!
@@ -39,15 +37,15 @@ Application walks user through cupcake customization and transcational system ac
 
 ##  DOCUMENTATION
 
-[***Documentation process involves problem statement, requirement elitication, etc:***] (https://github.com/skyyfall007/CupcakeExpress/tree/master/Documentation)
+[***Documentation*** process involves problem statement, requirement elitication, etc:***] (https://github.com/skyyfall007/CupcakeExpress/tree/master/Documentation)
 
 
 ##  CREDITS
 
 This project could not have been possible without the following indivduals and their assigned roles:
 
-* Adele Francois [[@skyyfall007]] (https://github.com/skyyfall007) :  ***Documentation Specialist*** & ***Junior Developer***
-* Jawan Higgins  [[@Jwork26]]      (https://github.com/Jwork26)    :  ***Junior Developer*** & ***Software Testing***
+* Adele Francois [[@skyyfall007]](https://github.com/skyyfall007) :  ***Documentation Specialist*** & ***Junior Developer***
+* Jawan Higgins  [[@Jwork26]] (https://github.com/Jwork26)    :  ***Junior Developer*** & ***Software Testing***
 * Lance Toornman                                                   :  ***Database Modeler*** 
 
 
